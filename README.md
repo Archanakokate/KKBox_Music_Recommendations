@@ -2,6 +2,8 @@
 ## Task-3
 ## KKBox Music Recommendations
 
+The primary goal of this project is to develop a robust predictive model that accurately identifies the likelihood of users listening to a song repetitively on KKBOX. By understanding user behavior and preferences, we aim to improve the music recommendation system and enhance the overall user experience on the platform.
+
 The dataset is from KKBOX, Asia’s leading music streaming service, holding the world’s most comprehensive Asia-Pop music library with over 30 million tracks.
 In this task, we predict the chances of a user listening to a song repetitively after the first observable listening event within a time window was triggered. If there are recurring listening event(s) triggered within a month after the user’s very first observable listening event, its target is marked 1, and 0 otherwise in the training set. The same rule applies to the testing set.
 
