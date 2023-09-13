@@ -1,5 +1,5 @@
-# LetsGrowMore Internship - DataScience
-## Task-3
+## LetsGrowMore Internship Project - DataScience
+### Task-3
 ## KKBox Music Recommendations
 
 The primary goal of this project is to develop a robust predictive model that accurately identifies the likelihood of users listening to a song repetitively on KKBOX. By understanding user behavior and preferences, we aim to improve the music recommendation system and enhance the overall user experience on the platform.
