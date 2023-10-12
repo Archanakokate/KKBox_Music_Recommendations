@@ -52,3 +52,25 @@ id: row id (will be used for submission)
 ### 5) song_id
   song name - the name of the song.
   isrc - International Standard Recording Code, theoretically can be used as an identity of a song.  
+
+
+### Key tasks performed :
+
+- Data Loading and Exploration: 
+      Unzipped and loaded all datasets.
+      Merged datasets and explored them to gain insights into the data structure and contents.
+- Data Preprocessing: 
+      Handled missing values appropriately.
+      Converted date-related columns to proper date formats.
+- Feature Engineering: 
+     Extracted meaningful features from relevant columns.
+     Merged relevant features from different datasets to create a consolidated dataset.
+- Data Preparation for Modeling:
+      Encoded categorical features using Label Encoding.
+     Standardized the data using Standard Scaler
+- Model Building, Training and Model Evaluation:
+     Splitted training data into training and validation sets.
+      Used Decision Tree model for binary classification to train the data.
+     Evaluated the model's performance on the validation set using metrics like classification report, confusion matrix, accuracy and cross validation scores.
+- Music Recommendation:
+      Used the trained model to predict the target variable (recurring listening events) on the test dataset.
